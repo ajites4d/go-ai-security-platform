@@ -1,0 +1,44 @@
+# Sensitive files - JANGAN UPLOAD INI KE GITHUB
+infrastructure/terraform/aws/terraform.tfvars
+infrastructure/terraform/aws/.terraform/
+*.env
+*.key
+*.pem
+aws_credentials.txt
+secrets/
+config.local.*
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output directories
+/dist
+/bin
+/out
+
+# Dependency directories
+vendor/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Docker
+docker-compose.override.yml
